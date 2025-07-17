@@ -1,0 +1,11 @@
+curl -X POST https://graph.facebook.com/v18.0/690295757502709/messages \
+  -H "Authorization: Bearer EAARnBhCtGWYBPESAOfLn865w3EyV1MwIq9DtkLNpu3CG7sfWjjlPZCpAuhZC0JBCeAk7z2haP70VHZBPrYA6w8aDZCIUJ2ePCKZCcaG8aEtjHNaZA1tCncqptHWMhKAHX4zeSdRW1xE4Rx9O1GBvU84RWY8pEZAEtGej3ZC0DflFLCtCoZAeGI732AOX7jvBhggqV3P0rEGKKqbR1ydc1Cnr3I2Ux47W41FECjrMZBhxVY4agrJRZALJQZDZD" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "messaging_product": "whatsapp",
+    "to": "254745020416",
+    "type": "text",
+    "text": {
+      "body": "Hello from curl!"
+    }
+  }'
